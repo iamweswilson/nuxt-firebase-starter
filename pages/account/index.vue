@@ -86,7 +86,6 @@
 <script>
 import firebase from 'firebase/app'
 import { mapGetters, mapActions } from 'vuex'
-import UserDrafts from '~/components/user/UserDrafts.vue'
 
 var previewFile = '';
 
@@ -104,9 +103,6 @@ export default {
   },
   computed: {
     ...mapGetters({ user: 'user'}),
-  },
-  components: {
-    UserDrafts,
   },
   mounted() {
     this.displayName = this.user.displayName
