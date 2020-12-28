@@ -2,5 +2,4 @@
   ID = "realworld-nuxt"
 
 [build]
-  publish = "dist/"
-  command = "CI= yarn generate"
+  publish = "dist"
