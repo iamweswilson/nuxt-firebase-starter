@@ -6,7 +6,7 @@
     <p
       class="text-left text-base md:text-lg pt-8 md:w-7/12 lg:w-6/12 text-gray-700"
     >
-      Nuxt integrated with Firebase auth, storage and firestore. Including Tailwind CSS and Heroicons.
+      This is a sample template built on <a class="underline font-bold" href="https://nuxtjs.org/">Nuxt</a> integrated with <a class="underline font-bold" href="https://firebase.google.com/">Firebase</a> auth, storage and firestore. Including <a class="underline font-bold" href="https://tailwindcss.com/">Tailwind CSS</a> and <a class="underline font-bold" href="https://heroicons.com/">Heroicons</a>.
     </p>
     <p>
       <a
