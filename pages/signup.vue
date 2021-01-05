@@ -91,7 +91,9 @@ export default {
               displayName: this.name,
             })
             .then(() => {
-              this.$router.back()
+              // this.$router.back()
+              // Sending to account page for the demo
+              this.$router.push('/account')
             })
         })
         .catch((err) => {

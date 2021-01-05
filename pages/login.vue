@@ -81,7 +81,9 @@ export default {
         .then(() => {
           this.email = ''
           this.password = ''
-          this.$router.back()
+          // this.$router.back()
+          // Sending to account page for the demo
+          this.$router.push('/account')
         })
         .catch((err) => {
           this.error = err.message
