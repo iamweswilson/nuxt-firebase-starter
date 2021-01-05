@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="relative" :class="{shown: state}">
+      <!-- If you have a profile pic, use that -->
       <button v-if="user.photoURL"
         class="rounded-full outline-none focus:outline-none bg-blue-600 w-8 h-8 flex items-center justify-center"
         style="transition:all .15s ease font-normal p-3 rounded outline-none focus:outline-none capitalize w-full"
@@ -9,6 +10,7 @@
       >
         <img :src="user.photoURL" class="w-full h-full rounded-full object-cover">
       </button>
+      <!-- If you have a name and no profile pic, use that -->
       <button v-else-if="user.displayName"
         class="text-white uppercase text-sm p-3 ring-4 rounded-full outline-none focus:outline-none bg-blue-600 w-8 h-8 flex items-center justify-center"
         style="transition:all .15s ease font-normal p-3 rounded outline-none focus:outline-none capitalize w-full"
@@ -17,6 +19,7 @@
       >
         {{ user.displayName[0] }}
       </button>
+      <!-- If you don't have a name or pic, use your email -->
       <button v-else
         class="text-white uppercase text-sm p-3 ring-4 rounded-full outline-none focus:outline-none bg-blue-600 w-8 h-8 flex items-center justify-center"
         style="transition:all .15s ease font-normal p-3 rounded outline-none focus:outline-none capitalize w-full"
