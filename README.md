@@ -32,4 +32,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 - Build command: `yarn generate`
 - Publish directory: `dist`
+
 (These are defined in `netlify.toml`)
