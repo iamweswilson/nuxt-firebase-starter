@@ -28,8 +28,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 5. Copy the config details provided for your firebase app and paste them in `/plugins/firebase.js`
 6. In the Firebase console, turn on "Authentication" (select "Email/Password"), Firestore, and Storage.
 
-# Netlify deploy configuration
+## Netlify deploy configuration
 
-Build command: `yarn generate`
-Publish directory: `dist`
+- Build command: `yarn generate`
+- Publish directory: `dist`
 (These are defined in `netlify.toml`)
